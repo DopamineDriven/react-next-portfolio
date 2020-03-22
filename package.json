@@ -1,0 +1,39 @@
+{
+  "name": "react-next-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "heroku-postbuild": "npm run build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DopamineDriven/react-next-portfolio.git"
+  },
+  "keywords": [],
+  "author": "Andrew Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DopamineDriven/react-next-portfolio/issues"
+  },
+  "homepage": "https://github.com/DopamineDriven/react-next-portfolio#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.4.1",
+    "next": "^9.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "prettier": "^1.19.1",
+    "react-hooks": "^1.0.1",
+    "react-performance": "0.0.5"
+  }
+}
